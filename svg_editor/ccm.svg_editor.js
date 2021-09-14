@@ -20,7 +20,7 @@
       const $ = {};
       this.start = async () => {
         const component = await this.ccm.load(
-          "https://inflameous171.github.io/svg_editor/resources/template.mjs"
+          "https://inflameous171.github.io/svg_editor/resources/components.mjs"
         );
         component();
       };
