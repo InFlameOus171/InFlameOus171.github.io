@@ -5,21 +5,19 @@
  */
 
 (() => {
+  const SVG_Editor = {};
   const component = {
     name: "svg_editor",
 
     ccm: "https://ccmjs.github.io/ccm/ccm.js",
 
     config: {
-      html: ["ccm.load", "./resources/template.mjs"],
+      html: [
+        "ccm.load",
+        "https://inflameous171.github.io/svg_editor/resources/template.mjs",
+      ],
     },
-    Instance: function () {
-      const $ = {};
-      this.start = async () => {
-        Object.assign($, this.ccm.helper);
-        this.element.innerHTML = "Hello, World!";
-      };
-    },
+    Instance: SVG_Editor,
   };
 
   let b =
