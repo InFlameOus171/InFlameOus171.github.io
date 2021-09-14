@@ -19,10 +19,8 @@
     Instance: function () {
       const $ = {};
       this.start = async () => {
-        const { SVG_Editor } = await this.ccm.load(
-          "https://inflameous171.github.io/svg_editor/resources/components.mjs"
-        );
-        this.SVG_Editor(this);
+        const draw = SVG().addTo("#drawZone").size(300, 300);
+        const rect = draw.rect(100, 100).attr({ fill: "#f06" });
       };
     },
   };
