@@ -5,7 +5,6 @@
  */
 
 (() => {
-  const SVG_Editor = {};
   const component = {
     name: "svg_editor",
 
@@ -17,7 +16,15 @@
         "https://inflameous171.github.io/svg_editor/resources/template.mjs",
       ],
     },
-    Instance: SVG_Editor,
+    Instance: function () {
+      const $ = {};
+      this.start = async () => {
+        const component = await this.ccm.load(
+          "https://inflameous171.github.io/svg_editor/resources/template.mjs"
+        );
+        component();
+      };
+    },
   };
 
   let b =
