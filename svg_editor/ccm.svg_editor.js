@@ -19,10 +19,10 @@
     Instance: function () {
       const $ = {};
       this.start = async () => {
-        const component = await this.ccm.load(
+        const { SVG_Editor } = await this.ccm.load(
           "https://inflameous171.github.io/svg_editor/resources/components.mjs"
         );
-        component();
+        this.SVG_Editor(this);
       };
     },
   };
