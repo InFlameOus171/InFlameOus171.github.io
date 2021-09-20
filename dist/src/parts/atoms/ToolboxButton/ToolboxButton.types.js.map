@@ -1,1 +1,0 @@
-{"version":3,"file":"ToolboxButton.types.js","sourceRoot":"","sources":["../../../../../src/parts/atoms/ToolboxButton/ToolboxButton.types.ts"],"names":[],"mappings":"","sourcesContent":["export interface IToolboxButtonProps {\r\n  onClick: (id: string) => void;\r\n  title: string;\r\n  id: string;\r\n}\r\n"]}

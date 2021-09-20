@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/parts/templates/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAC","sourcesContent":["export { SvgEditor } from './SvgEditor.js';\n"]}
