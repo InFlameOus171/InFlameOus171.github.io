@@ -1,3 +1,4 @@
+import t from"crypto";
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
