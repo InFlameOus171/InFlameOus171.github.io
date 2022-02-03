@@ -50,7 +50,7 @@
     "i18n-zh-TW-json.js": "./static/js/i18n-zh-TW-json.a54bfb83.chunk.js",
     "image.js": "./static/js/image.0f8fa7a4.chunk.js",
     "main.css": "./static/css/main.fd9daf31.chunk.css",
-    "main.js": "./static/js/main.99589009.chunk.js",
+    "main.js": "./static/js/main.b1ddbc20.chunk.js",
     "pwacompat.js": "./static/js/pwacompat.f3ca5185.chunk.js",
     "runtime-main.js": "./static/js/runtime-main.edbff782.js",
     "socketIoClient.js": "./static/js/socketIoClient.03faa78f.chunk.js",
@@ -76,6 +76,6 @@
     "static/js/runtime-main.edbff782.js",
     "static/js/53.9abe4e32.chunk.js",
     "static/css/main.fd9daf31.chunk.css",
-    "static/js/main.99589009.chunk.js"
+    "static/js/main.b1ddbc20.chunk.js"
   ]
 }
